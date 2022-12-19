@@ -19,9 +19,9 @@
 
 Written content in the file successfully
 
-### Hasilnya seperti ini karen aelse akan dijadikan ketika try adalah True
+### Hasilnya seperti ini karena else akan dijadikan ketika try adalah True
 
-3. COntoh ini mencoba membuka file dimana anda tidak memiliki izin menulis, sehingga menimbulkan pengecualian
+3. Contoh ini mencoba membuka file dimana anda tidak memiliki izin menulis, sehingga menimbulkan pengecualian
 
 ![image](https://user-images.githubusercontent.com/115475424/208336132-141394ad-9fc2-4790-b07e-54753c3704f9.png)
 
@@ -46,7 +46,7 @@ Written content in the file successfully
 The argument does not contain numbers 
 invalid literal for int() with base 10: 'xyz'
 
-### Ketika dijalankan, maka muncul error. Hapus #!/usr/bin/python dan di except ValueError, Argument: ganti koma dengan as seperti except ValueError as Argument: agar tidak error. Jika dijalankan akan mumncul error lagi. Kenapa? karena parameter def temp_convert harus mengandung angka.
+### Ketika dijalankan, maka muncul error. Hapus #!/usr/bin/python dan di except ValueError, Argument: ganti koma dengan as seperti except ValueError as Argument: agar tidak error. Jika dijalankan akan muncul error lagi. Kenapa? karena parameter def temp_convert harus mengandung angka.
 
 
 6. Contoh dan penjelasan
