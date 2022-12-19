@@ -17,7 +17,7 @@
 
 > Hasilnya :
 
-Written content in the file successfully
+`Written content in the file successfully`
 
 ### Hasilnya seperti ini karena else akan dijadikan ketika try adalah True
 
@@ -27,7 +27,7 @@ Written content in the file successfully
 
 
 ## Mengapa hasilnya error ?
-### r adalah read -  Membuka file untuk membaca, akan error jika file tidak ada. Disini ingin membaca file bukan menulsi maka dibawahnya fh = open("testfile", "r") tambahkan print(fh.readline()) dan fh.write dihapus. Setelah dijalankan, try dan else ditampilkan.
+### r adalah read -  Membuka file untuk membaca, akan error jika file tidak ada. Disini ingin membaca file bukan menulsi maka dibawahnya `fh = open("testfile", "r")` tambahkan `print(fh.readline())` dan `fh.write dihapus`. Setelah dijalankan, try dan else ditampilkan.
 
 
 4. Contoh ke empat
@@ -43,8 +43,8 @@ Written content in the file successfully
 
 > Hasilnya :
 
-The argument does not contain numbers 
-invalid literal for int() with base 10: 'xyz'
+`The argument does not contain numbers 
+invalid literal for int() with base 10: 'xyz'`
 
 ### Ketika dijalankan, maka muncul error. Hapus #!/usr/bin/python dan di except ValueError, Argument: ganti koma dengan as seperti except ValueError as Argument: agar tidak error. Jika dijalankan akan muncul error lagi. Kenapa? karena parameter def temp_convert harus mengandung angka.
 
